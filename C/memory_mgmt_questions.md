@@ -13,7 +13,7 @@ typedef struct dynamic_array {
 array_t *create_array(int initial_capacity);
 int insert(array_t *arr, int value);      // Resize if full
 void free_array(array_t *arr);            // Clean deletion
-
+```
 
 
 ## 2. String Buffer Management
@@ -30,7 +30,6 @@ buffer_t *create_buffer(int initial_size);
 int append(buffer_t *buf, const char *str);  // With reallocation
 void clear_buffer(buffer_t *buf);            // Reset without freeing
 void free_buffer(buffer_t *buf);             // Complete cleanup
-
 ```
 
 
